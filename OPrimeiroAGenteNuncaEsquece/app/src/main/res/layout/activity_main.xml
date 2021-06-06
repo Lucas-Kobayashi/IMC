@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#DBEDAB">
 
     <ImageView
         android:layout_width="177dp"
@@ -36,7 +37,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
-        android:background="#FFF59D">
+        android:background="#CCE586">
 
         <TextView
             android:layout_width="wrap_content"
@@ -56,6 +57,7 @@
             android:backgroundTint="@android:color/white"/>
 
         <Button
+            android:id="@+id/buttonNCD"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:text="Necessidades de caloria diária"
